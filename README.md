@@ -35,6 +35,4 @@ http://localhost:3000/
 
 Bonne visite !
 
-## 🐰 Auteur
-Luca Montaigut : https://github.com/luca-montaigut
 
