@@ -28,7 +28,8 @@ User.create(
   description: "You can't see me but i'm not John Cena",
   email: "anonymous@email.com",
   age:rand(13..100),
-  city_id: City.all.sample.id
+  city_id: City.all.sample.id,
+  password: "prendseeds"
 )
 
 
@@ -39,7 +40,8 @@ User.create(
   description: Faker::Movie.quote,
   email: Faker::Internet.email,
   age:rand(13..100),
-  city_id: City.all.sample.id
+  city_id: City.all.sample.id,
+  password: Faker::Internet.password(min_length: 8)
 )
 end
 
